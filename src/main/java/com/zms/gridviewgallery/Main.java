@@ -1,4 +1,4 @@
-package com.zms.gallery;
+package com.zms.gridviewgallery;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
@@ -10,7 +10,6 @@ import java.util.ListIterator;
 import java.util.Map;
 import java.util.TimeZone;
 
-import android.R.integer;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.database.Cursor;
@@ -18,7 +17,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.widget.GridView;
 
-import com.zms.gallery.ImageScanner.ScanCompleteCallBack;
+import com.zms.gridviewgallery.ImageScanner.ScanCompleteCallBack;
 
 public class Main extends Activity {
     private ProgressDialog mProgressDialog;

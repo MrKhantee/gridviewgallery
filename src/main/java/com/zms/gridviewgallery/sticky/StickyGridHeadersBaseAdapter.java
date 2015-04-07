@@ -1,26 +1,31 @@
-package com.zms.gallery.sticky;
+package com.zms.gridviewgallery.sticky;
 
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListAdapter;
 
 /**
- * Adapter interface for StickyGridHeadersGridView. The adapter expects two sets
- * of data, items, and headers. Implement this interface to provide an optimised
- * method for generating the header data set.
- * <p/>
- * The is a second interface
- * {@link com.zms.gallery.sticky.StickyGridHeadersBaseAdapter}.
+ * Base adapter interface for StickyGridHeadersGridView. The adapter expects two
+ * sets of data, items, and headers. Implement this interface to provide an
+ * optimised method for generating the header data set. Otherwise see
+ * {@link StickyGridHeadersSimpleAdapter} for a solution which will
+ * auto-generate the set of headers.
  */
-public interface StickyGridHeadersSimpleAdapter extends ListAdapter {
+public interface StickyGridHeadersBaseAdapter extends ListAdapter {
     /**
-     * Get the header id associated with the specified position in the list.
+     * Get the number of items with a given header.
      *
-     * @param position The position of the item within the adapter's data set whose
-     *                 header id we want.
-     * @return The id of the header at the specified position.
+     * @param section The header in the adapter's data set.
+     * @return The number of items for the specified header.
      */
-    long getHeaderId(int position);
+    public int getCountForHeader(int header);
+
+    /**
+     * Get the number of headers in the adapter's data set.
+     *
+     * @return Number of headers.
+     */
+    public int getNumHeaders();
 
     /**
      * Get a View that displays the header data at the specified position in the

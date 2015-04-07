@@ -1,4 +1,4 @@
-package com.zms.gallery;
+package com.zms.gridviewgallery;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;

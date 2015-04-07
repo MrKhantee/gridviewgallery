@@ -14,9 +14,9 @@
  limitations under the License.
  */
 
-package com.zms.gallery.sticky;
+package com.zms.gridviewgallery.sticky;
 
-import com.zms.gallery.sticky.StickyGridHeadersBaseAdapterWrapper.HeaderFillerView;
+import com.zms.gridviewgallery.sticky.StickyGridHeadersBaseAdapterWrapper.HeaderFillerView;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;

@@ -1,4 +1,4 @@
-package com.zms.gallery.sticky;
+package com.zms.gridviewgallery.sticky;
 
 import android.content.Context;
 import android.database.DataSetObserver;

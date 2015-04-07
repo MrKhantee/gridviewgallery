@@ -1,4 +1,4 @@
-package com.zms.gallery;
+package com.zms.gridviewgallery;
 
 import java.util.List;
 
@@ -13,9 +13,9 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.zms.gallery.MyImageView.OnMeasureListener;
-import com.zms.gallery.NativeImageLoader.NativeImageCallBack;
-import com.zms.gallery.sticky.StickyGridHeadersSimpleAdapter;
+import com.zms.gridviewgallery.MyImageView.OnMeasureListener;
+import com.zms.gridviewgallery.NativeImageLoader.NativeImageCallBack;
+import com.zms.gridviewgallery.sticky.StickyGridHeadersSimpleAdapter;
 
 public class StickyGridAdapter extends BaseAdapter implements
         StickyGridHeadersSimpleAdapter {

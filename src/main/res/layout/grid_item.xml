@@ -3,7 +3,7 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" >
 
-    <com.zms.gallery.MyImageView
+    <com.zms.gridviewgallery.MyImageView
         android:id="@+id/grid_item"
         android:scaleType="fitXY"
         android:layout_width="fill_parent"

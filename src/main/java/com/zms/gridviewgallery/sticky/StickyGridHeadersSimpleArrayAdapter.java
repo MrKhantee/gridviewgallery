@@ -1,4 +1,4 @@
-package com.zms.gallery.sticky;
+package com.zms.gridviewgallery.sticky;
 
 import java.util.Arrays;
 import java.util.List;

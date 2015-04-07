@@ -1,4 +1,4 @@
-package com.zms.gallery;
+package com.zms.gridviewgallery;
 
 import android.content.Context;
 import android.util.AttributeSet;
